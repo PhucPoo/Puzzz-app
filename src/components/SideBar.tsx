@@ -23,7 +23,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-between bg-white border-r w-16 py-4 h-screen">
+    <div className="fixed top-0 left-0 h-ful flex flex-col items-center justify-between bg-gray-200 border-r w-16 py-4 h-screen border border-gray-300">
       {/* Logo */}
       <div className="flex flex-col items-center gap-4">
         <div className="text-pink-500 font-bold text-2xl">🎁</div>
